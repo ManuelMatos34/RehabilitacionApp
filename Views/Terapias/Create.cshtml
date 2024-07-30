@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Crear";
+}
+
+<h1>Crear</h1>
+
+<h4>Terapia</h4>
+<hr />
+<div class="container">
+    <form asp-action="Create">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div class="form-group">
+                    <label for="Fecha" class="control-label">Fecha</label>
+                    <input type="date" name="Fecha" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="Diagnostico" class="control-label">Diagnóstico</label>
+                    <textarea name="Diagnostico" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="NecesidadDelPaciente" class="control-label">Necesidad del Paciente</label>
+                    <textarea name="NecesidadDelPaciente" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="IdPaciente" class="control-label">Paciente</label>
+                    <select name="IdPaciente" class="form-control">
+                        <option value="">Seleccionar Paciente</option>
+                        @foreach (Paciente paciente in ViewBag.IdPaciente)
+                        {
+                            <option value="@paciente.IdPaciente">@paciente.Nombre, @paciente.Apellido</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="IdEstadoTerapia" class="control-label">Estado terapia</label>
+                    <select name="IdEstadoTerapia" class="form-control">
+                        <option value="">Seleccionar Estado</option>
+                        @foreach (EstadoTerapia estado in ViewBag.IdEstadoTerapia)
+                        {
+                            <option value="@estado.IdEstadoTerapia">@estado.Descripcion</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="form-group">
+                    <label for="IdEmpleado" class="control-label">Especialista</label>
+                    <select name="IdEmpleado" class="form-control">
+                        <option value="">Seleccionar Especialista</option>
+                        @foreach (Empleado empleado in ViewBag.IdEmpleado)
+                        {
+                            <option value="@empleado.IdEmpleado">@empleado.Nombre</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Sensacion" class="control-label">Sensación</label>
+                    <input type="text" name="Sensacion" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="Observaciones" class="control-label">Observaciones</label>
+                    <textarea name="Observaciones" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="Dolor" class="control-label">Dolor</label>
+                    <input type="number" name="Dolor" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="IdEstadoPaciente" class="control-label">Estado Paciente</label>
+                    <select name="IdEstadoPaciente" class="form-control">
+                        <option value="">Seleccionar Estado</option>
+                        @foreach (EstadoPaciente estadoPaciente in ViewBag.IdEstadoPaciente)
+                        {
+                            <option value="@estadoPaciente.IdEstadoPaciente">@estadoPaciente.Descripcion</option>
+                        }
+                    </select>
+                </div>
+                
+            </div>
+        </div>
+        <div class="form-group mb-1 mt-1">
+            <input type="submit" value="Crear" class="btn btn-primary" />
+        </div>
+    </form>
+    <a class="btn btn-secondary mt-1" asp-action="Index">Volver a la Lista</a>
+</div>

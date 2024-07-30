@@ -1,0 +1,83 @@
+﻿@model FisioTerapias.Models.Seguimiento
+
+@{
+    ViewData["Title"] = "Crear";
+}
+
+<h1>Crear</h1>
+
+<h4>Seguimiento</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FechaSeguimiento" class="control-label"></label>
+                <input type="date" asp-for="FechaSeguimiento" class="form-control" />
+                <span asp-validation-for="FechaSeguimiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sensacion" class="control-label"></label>
+                <input asp-for="Sensacion" class="form-control" />
+                <span asp-validation-for="Sensacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observaciones" class="control-label"></label>
+                <textarea asp-for="Observaciones" class="form-control"></textarea>
+                <span asp-validation-for="Observaciones" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dolor" class="control-label"></label>
+                <input type="number" asp-for="Dolor" class="form-control" />
+                <span asp-validation-for="Dolor" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="IdEstadoPaciente" class="control-label">Estado Paciente</label>
+                <select asp-for="IdEstadoPaciente" class="form-control">
+                    <option value="">Seleccionar Estado</option>
+                    @foreach (EstadoPaciente estadoPaciente in ViewBag.IdEstadoPaciente)
+                    {
+                        <option value="@estadoPaciente.IdEstadoPaciente">@estadoPaciente.Descripcion</option>
+                    }
+                </select>
+            </div>
+            @* <div class="form-group">
+                <label asp-for="IdTerapia" class="control-label">Terapia</label>
+                <select asp-for="IdTerapia" class="form-control">
+                    <option value="">Seleccionar Terapia</option>
+                    @foreach (Terapia terapia in ViewBag.IdTerapia)
+                    {
+                        <option value="@terapia.IdTerapia">@terapia.</option>
+                    }
+                </select>
+            </div> *@
+
+
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="TomoMedicamentos" /> @Html.DisplayNameFor(model => model.TomoMedicamentos)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Hielo" /> @Html.DisplayNameFor(model => model.Hielo)
+                </label>
+            </div>
+            <div class="form-group mt-1 mb-1">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-primary" asp-action="Index">Volver a la Lista</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

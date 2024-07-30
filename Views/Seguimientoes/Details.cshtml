@@ -1,0 +1,66 @@
+﻿@model FisioTerapias.Models.Seguimiento
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1>Detalles</h1>
+
+<div>
+    <h4>Seguimiento</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaSeguimiento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FechaSeguimiento)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Sensacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Sensacion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TomoMedicamentos)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TomoMedicamentos)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Hielo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Hielo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Observaciones)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Observaciones)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Dolor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Dolor)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdEstadoPacienteNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IdEstadoPacienteNavigation.IdEstadoPaciente)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdTerapiaNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IdTerapiaNavigation.IdTerapia)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model?.IdSeguimiento">Editar</a> |
+    <a class="btn btn-primary" asp-action="Index">Volver a la Lista</a>
+</div>

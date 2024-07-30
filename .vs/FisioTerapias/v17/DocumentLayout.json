@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\autenticacion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\autenticacion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\pacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\pacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\controllers\\empleadoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:controllers\\empleadoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\terapias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\terapias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\seguimientoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\seguimientoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\estadoterapias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\estadoterapias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\estadopacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\estadopacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\especialidades\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\especialidades\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|c:\\users\\casitablanca\\desktop\\fisioterapias\\views\\empleadoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C743DC6F-F6C1-4EFE-BF2E-E5A860F6CBDC}|FisioTerapias.csproj|solutionrelative:views\\empleadoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T23:11:17.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Autenticacion\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Autenticacion\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Autenticacion\\Index.cshtml",
+              "RelativeToolTip": "Views\\Autenticacion\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T23:10:50.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Pacientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Pacientes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Create.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:57:00.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Pacientes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Pacientes\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Edit.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:50:05.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmpleadoesController.cs",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Controllers\\EmpleadoesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmpleadoesController.cs",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Controllers\\EmpleadoesController.cs",
+              "RelativeToolTip": "Controllers\\EmpleadoesController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwEIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:36:56.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Terapias\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Terapias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Terapias\\Index.cshtml",
+              "RelativeToolTip": "Views\\Terapias\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:30:54.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Seguimientoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Seguimientoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Seguimientoes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Seguimientoes\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:29:52.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Roles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Roles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Roles\\Index.cshtml",
+              "RelativeToolTip": "Views\\Roles\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:29:06.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\EstadoTerapias\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\EstadoTerapias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\EstadoTerapias\\Index.cshtml",
+              "RelativeToolTip": "Views\\EstadoTerapias\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:28:06.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\EstadoPacientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\EstadoPacientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\EstadoPacientes\\Index.cshtml",
+              "RelativeToolTip": "Views\\EstadoPacientes\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:27:07.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Pacientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Pacientes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADgAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:25:42.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:31:07.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Especialidades\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Especialidades\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Especialidades\\Index.cshtml",
+              "RelativeToolTip": "Views\\Especialidades\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:25:08.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Empleadoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Empleadoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CasitaBlanca\\Desktop\\FisioTerapias\\Views\\Empleadoes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Empleadoes\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:25:01.664Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

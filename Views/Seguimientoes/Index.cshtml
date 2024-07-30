@@ -1,0 +1,76 @@
+﻿@model IEnumerable<FisioTerapias.Models.Seguimiento>
+
+<h1>Lista de Seguimientos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo</a>
+</p>
+<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaSeguimiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sensacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TomoMedicamentos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hielo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Observaciones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dolor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEstadoPacienteNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTerapiaNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaSeguimiento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sensacion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TomoMedicamentos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hielo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Observaciones)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dolor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdEstadoPacienteNavigation.IdEstadoPaciente)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdTerapiaNavigation.IdTerapia)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdSeguimiento" class="btn btn-warning">Editar</a> 
+                    <a asp-action="Details" asp-route-id="@item.IdSeguimiento" class="btn btn-info">Detalles</a> 
+                    <a asp-action="Delete" asp-route-id="@item.IdSeguimiento" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
